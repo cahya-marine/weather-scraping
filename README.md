@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/cahya-marine/weather-scraping.svg?style=social)](https://github.com/cahya-marine/weather-scraping/stargazers)
 
 
-### Tahap 1: Prasyarat Sistem
+### Prasyarat Sistem
 
 Pastikan sistem Anda telah terinstal:
 
@@ -34,7 +34,7 @@ Pastikan sistem Anda telah terinstal:
     pip install -r requirements.txt
     ```
 
-### Tahap 4: Penggunaan dan Eksekusi
+###  Eksekusi
 
 1.  **Konfigurasi (Opsional):** Jika Anda ingin mengubah kota target atau URL sumber data, buka file `config.py` atau `main.py` dan ubah variabel `TARGET_CITIES` atau `TARGET_URLS` yang ada.
 2.  **Jalankan Scraper:** Eksekusi file utama aplikasi.
