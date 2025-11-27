@@ -45,6 +45,6 @@ Pastikan sistem Anda telah terinstal:
 
 ## Kontak
 
-* **Pengembang:** Cahya Caa
+* **Pengembang:** Cahya
 * **GitHub:** [@cahyacaa](https://github.com/cahyacaa)
 * **Link Proyek:** [https://github.com/cahya-marine/weather-scraping](https://github.com/cahya-marine/weather-scraping)
