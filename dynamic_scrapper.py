@@ -42,19 +42,20 @@ class UniversalScraperV27:
         return " ".join(text.split()).strip()
 
     def _extract_data_ai(self, text_raw_full_page, url):
-        """Zero-Shot Prompting: Fokus pada Monthly, Hourly Grouped, dan Multi-Lokasi."""
+        """Zero-Shot Prompting: Fokus pada Multiple Time Forecast (Daily, Hourly, Monthly)."""
         
         TargetSchema = self.context.TargetSchema
         
         prompt = (
             "Anda adalah mesin ekstraksi data cuaca. Tugas Anda adalah memproses seluruh teks halaman web dan memetakannya ke dalam skema JSON hierarkis.\n\n"
-            "Instruksi Kritis:\n"
+            "Instruksi Kritis (Multiple Time Forecast):\n"
             "1. Identifikasi lokasi induk (Kota/Daerah) dan masukkan ke **'parent_location'**.\n"
-            "2. **JIKA halaman adalah prakiraan Bulanan**, ekstrak **SEMUA** entri per hari dalam kalender bulanan dan masukkan ke list **'monthly_forecasts'**.\n" # <-- NEW
-            "3. JIKA halaman menampilkan data **per jam**, ekstrak dan **KELOMPOKKAN** data per jam tersebut berdasarkan hari ke dalam list **'hourly_forecasts_grouped'**.\n"
-            "4. JIKA halaman adalah prakiraan Harian (lokasi tunggal atau multi-lokasi), ekstrak semua prakiraan hariannya ke list **'all_locations_forecast'**.\n"
-            "5. Pastikan hanya **satu** dari tiga list utama (`all_locations_forecast`, `hourly_forecasts_grouped`, `monthly_forecasts`) yang terisi, sisanya harus `[]` (kosong).\n"
-            "6. Jika suatu field tidak ditemukan, **tetapkan nilainya sebagai 'N/A'** atau list kosong `[]`.\n\n"
+            "2. **Ekstrak SEMUA jenis prakiraan cuaca yang ditemukan di halaman, dan masukkan ke field yang sesuai.**\n"
+            "3. **Prakiraan Harian (Daily)**: Jika ada, masukkan ke **'all_locations_forecast'**. (Ini termasuk multi-lokasi atau ringkasan harian lokasi tunggal).\n"
+            "4. **Prakiraan Per Jam (Hourly)**: Jika ada, ekstrak dan **KELOMPOKKAN** data per jam tersebut berdasarkan hari (e.g., Thursday, Friday) ke dalam list **'hourly_forecasts_grouped'**.\n"
+            "5. **Prakiraan Bulanan (Monthly)**: Jika ada, ekstrak ke list **'monthly_forecasts'**.\n"
+            "6. Jika suatu jenis prakiraan tidak ditemukan, **maka list tersebut harus kosong `[]`**.\n"
+            "7. Jika suatu field tidak ditemukan (selain list), tetapkan nilainya sebagai 'N/A'.\n\n"
             "--- URL Target ---\n"
             f"{url}\n"
             "--- SELURUH Teks Mentah dari Halaman Web ---\n"
@@ -62,6 +63,7 @@ class UniversalScraperV27:
         )
 
         try:
+
             response = self.client.models.generate_content(
                 model='gemini-2.5-flash',
                 contents=prompt,
