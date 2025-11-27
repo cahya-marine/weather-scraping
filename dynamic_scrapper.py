@@ -1,4 +1,3 @@
-# universal_scraper_v27_playwright.py
 from pydantic import ValidationError
 from google import genai
 from google.genai import types
@@ -10,8 +9,6 @@ import importlib
 from datetime import datetime
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 
-# (Import Skema dan Gemini tetap sama)
-
 try:
     config_module = importlib.import_module("scraper_config")
     TARGET_SCHEMA = config_module.TARGET_SCHEMA # Sekarang UniversalOutputV27
@@ -20,10 +17,8 @@ except ImportError as e:
     print(f"ERROR: Gagal mengimpor konfigurasi dari scraper_config.py: {e}")
     sys.exit(1)
 
-# --- KONSTANTA ---
 STORAGE_STATE_FILE = "playwright_state_v27.json" 
 
-# ... (Kelas AIScraperContext tetap sama) ...
 class AIScraperContext:
     def __init__(self, target_url): 
         self.target_url = target_url
@@ -274,9 +269,7 @@ class UniversalScraperV27:
             print("Penyimpanan CSV Harian dilewati.")
 
 
-# ----------------------------------------------------------------------
-## EXECUTION V27
-# ----------------------------------------------------------------------
+
 if __name__ == "__main__":
     print("\n--- 🧠 Scraper Zero-Shot Universal (V27) - MONTHLY FOCUS ---")
     print("Mendukung ekstraksi Bulanan, Per Jam, dan Harian.")
