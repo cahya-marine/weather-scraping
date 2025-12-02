@@ -28,7 +28,6 @@ class AIScraperContext:
 class UniversalScraperV27:
     
     def __init__(self, context: AIScraperContext):
-        # ... (Inisialisasi Gemini Client) ...
         api_key = os.environ.get("GEMINI_API_KEY")
         if not api_key:
             raise EnvironmentError("GEMINI_API_KEY tidak ditemukan. Harap atur environment variable Anda.")

@@ -1,0 +1,519 @@
+{
+    "parent_location": "DKI Jakarta",
+    "source_url": "https://www.bmkg.go.id/cuaca/prakiraan-cuaca",
+    "forecast_period": "Daily forecast for 02 Dec 2025 - 11 Dec 2025",
+    "all_locations_forecast": [
+        {
+            "location_name": "Administrasi Kepulauan Seribu",
+            "daily_forecasts": [
+                {
+                    "date_day": "Sel, 02 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "26 °C",
+                    "condition_summary": "Hujan Ringan",
+                    "precipitation_chance": "71–85%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Rab, 03 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "26 °C",
+                    "condition_summary": "Hujan Petir",
+                    "precipitation_chance": "79–88%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Kam, 04 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "25 °C",
+                    "condition_summary": "Hujan Ringan",
+                    "precipitation_chance": "76–87%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Jum, 05 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "26 °C",
+                    "condition_summary": "Hujan Ringan",
+                    "precipitation_chance": "75–86%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Sab, 06 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "25 °C",
+                    "condition_summary": "Hujan Ringan",
+                    "precipitation_chance": "77–87%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Min, 07 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "26 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "77–81%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Sen, 08 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "26 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "76–80%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Sel, 09 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "27 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "75–77%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Rab, 10 Des",
+                    "high_temp": "27 °C",
+                    "low_temp": "26 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "66–74%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Kam, 11 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "27 °C",
+                    "condition_summary": "Cerah",
+                    "precipitation_chance": "73–75%",
+                    "wind_speed": "N/A"
+                }
+            ]
+        },
+        {
+            "location_name": "Kota Jakarta Pusat",
+            "daily_forecasts": [
+                {
+                    "date_day": "Sel, 02 Des",
+                    "high_temp": "29 °C",
+                    "low_temp": "26 °C",
+                    "condition_summary": "Hujan Ringan",
+                    "precipitation_chance": "81–87%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Rab, 03 Des",
+                    "high_temp": "27 °C",
+                    "low_temp": "25 °C",
+                    "condition_summary": "Hujan Ringan",
+                    "precipitation_chance": "75–94%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Kam, 04 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "23 °C",
+                    "condition_summary": "Hujan Petir",
+                    "precipitation_chance": "76–94%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Jum, 05 Des",
+                    "high_temp": "30 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Hujan Ringan",
+                    "precipitation_chance": "68–94%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Sab, 06 Des",
+                    "high_temp": "29 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "73–94%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Min, 07 Des",
+                    "high_temp": "29 °C",
+                    "low_temp": "25 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "71–95%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Sen, 08 Des",
+                    "high_temp": "30 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "65–91%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Sel, 09 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "61–94%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Rab, 10 Des",
+                    "high_temp": "27 °C",
+                    "low_temp": "25 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "53–88%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Kam, 11 Des",
+                    "high_temp": "25 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Cerah",
+                    "precipitation_chance": "82–85%",
+                    "wind_speed": "N/A"
+                }
+            ]
+        },
+        {
+            "location_name": "Kota Jakarta Utara",
+            "daily_forecasts": [
+                {
+                    "date_day": "Sel, 02 Des",
+                    "high_temp": "29 °C",
+                    "low_temp": "26 °C",
+                    "condition_summary": "Hujan Ringan",
+                    "precipitation_chance": "82–84%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Rab, 03 Des",
+                    "high_temp": "27 °C",
+                    "low_temp": "25 °C",
+                    "condition_summary": "Hujan Ringan",
+                    "precipitation_chance": "79–92%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Kam, 04 Des",
+                    "high_temp": "27 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Hujan Ringan",
+                    "precipitation_chance": "77–93%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Jum, 05 Des",
+                    "high_temp": "29 °C",
+                    "low_temp": "25 °C",
+                    "condition_summary": "Hujan Ringan",
+                    "precipitation_chance": "72–92%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Sab, 06 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "25 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "77–92%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Min, 07 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "25 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "75–93%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Sen, 08 Des",
+                    "high_temp": "29 °C",
+                    "low_temp": "25 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "71–90%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Sel, 09 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "25 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "64–91%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Rab, 10 Des",
+                    "high_temp": "26 °C",
+                    "low_temp": "25 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "60–86%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Kam, 11 Des",
+                    "high_temp": "25 °C",
+                    "low_temp": "25 °C",
+                    "condition_summary": "Cerah Berawan",
+                    "precipitation_chance": "79–83%",
+                    "wind_speed": "N/A"
+                }
+            ]
+        },
+        {
+            "location_name": "Kota Jakarta Barat",
+            "daily_forecasts": [
+                {
+                    "date_day": "Sel, 02 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "25 °C",
+                    "condition_summary": "Hujan Petir",
+                    "precipitation_chance": "81–89%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Rab, 03 Des",
+                    "high_temp": "27 °C",
+                    "low_temp": "25 °C",
+                    "condition_summary": "Hujan Ringan",
+                    "precipitation_chance": "74–96%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Kam, 04 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "23 °C",
+                    "condition_summary": "Hujan Petir",
+                    "precipitation_chance": "76–95%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Jum, 05 Des",
+                    "high_temp": "29 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Hujan Ringan",
+                    "precipitation_chance": "67–95%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Sab, 06 Des",
+                    "high_temp": "29 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "71–94%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Min, 07 Des",
+                    "high_temp": "30 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "68–95%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Sen, 08 Des",
+                    "high_temp": "31 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "63–93%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Sel, 09 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "61–94%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Rab, 10 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "25 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "50–88%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Kam, 11 Des",
+                    "high_temp": "24 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Cerah Berawan",
+                    "precipitation_chance": "85–85%",
+                    "wind_speed": "N/A"
+                }
+            ]
+        },
+        {
+            "location_name": "Kota Jakarta Selatan",
+            "daily_forecasts": [
+                {
+                    "date_day": "Sel, 02 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "25 °C",
+                    "condition_summary": "Hujan Petir",
+                    "precipitation_chance": "82–92%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Rab, 03 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "25 °C",
+                    "condition_summary": "Hujan Sedang",
+                    "precipitation_chance": "72–98%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Kam, 04 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "23 °C",
+                    "condition_summary": "Hujan Petir",
+                    "precipitation_chance": "74–97%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Jum, 05 Des",
+                    "high_temp": "29 °C",
+                    "low_temp": "23 °C",
+                    "condition_summary": "Hujan Ringan",
+                    "precipitation_chance": "65–97%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Sab, 06 Des",
+                    "high_temp": "29 °C",
+                    "low_temp": "23 °C",
+                    "condition_summary": "Hujan Ringan",
+                    "precipitation_chance": "66–95%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Min, 07 Des",
+                    "high_temp": "30 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "66–97%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Sen, 08 Des",
+                    "high_temp": "31 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "64–94%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Sel, 09 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "63–97%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Rab, 10 Des",
+                    "high_temp": "29 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "54–90%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Kam, 11 Des",
+                    "high_temp": "24 °C",
+                    "low_temp": "23 °C",
+                    "condition_summary": "Cerah",
+                    "precipitation_chance": "83–87%",
+                    "wind_speed": "N/A"
+                }
+            ]
+        },
+        {
+            "location_name": "Kota Jakarta Timur",
+            "daily_forecasts": [
+                {
+                    "date_day": "Sel, 02 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "26 °C",
+                    "condition_summary": "Hujan Ringan",
+                    "precipitation_chance": "86–90%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Rab, 03 Des",
+                    "high_temp": "29 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Hujan Ringan",
+                    "precipitation_chance": "72–97%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Kam, 04 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "23 °C",
+                    "condition_summary": "Hujan Petir",
+                    "precipitation_chance": "76–97%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Jum, 05 Des",
+                    "high_temp": "30 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Hujan Ringan",
+                    "precipitation_chance": "69–96%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Sab, 06 Des",
+                    "high_temp": "29 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Hujan Ringan",
+                    "precipitation_chance": "71–97%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Min, 07 Des",
+                    "high_temp": "29 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "67–97%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Sen, 08 Des",
+                    "high_temp": "31 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "66–94%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Sel, 09 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "62–95%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Rab, 10 Des",
+                    "high_temp": "28 °C",
+                    "low_temp": "24 °C",
+                    "condition_summary": "Berawan",
+                    "precipitation_chance": "55–93%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Kam, 11 Des",
+                    "high_temp": "25 °C",
+                    "low_temp": "23 °C",
+                    "condition_summary": "Cerah",
+                    "precipitation_chance": "82–86%",
+                    "wind_speed": "N/A"
+                }
+            ]
+        }
+    ],
+    "hourly_forecasts_grouped": [],
+    "monthly_forecasts": []
+}
