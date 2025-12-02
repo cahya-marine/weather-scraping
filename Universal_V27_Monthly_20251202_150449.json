@@ -1,0 +1,72 @@
+{
+    "parent_location": "Sampit (Hasan) Airport, Central Kalimantan, Indonesia",
+    "source_url": "https://weather.com/weather/today/l/3bb1168c65db096ad3f82c6fe492d0423bdad78272dc8addcf7fd32a1a874b38",
+    "forecast_period": "Today, Hourly, and 10 Day forecast for Sampit (Hasan) Airport",
+    "all_locations_forecast": [
+        {
+            "location_name": "Sampit (Hasan) Airport",
+            "daily_forecasts": [
+                {
+                    "date_day": "Wed 03",
+                    "high_temp": "90°",
+                    "low_temp": "74°",
+                    "condition_summary": "Thunderstorms",
+                    "precipitation_chance": "73%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Thu 04",
+                    "high_temp": "88°",
+                    "low_temp": "74°",
+                    "condition_summary": "Scattered Thunderstorms",
+                    "precipitation_chance": "54%",
+                    "wind_speed": "N/A"
+                },
+                {
+                    "date_day": "Fri 05",
+                    "high_temp": "89°",
+                    "low_temp": "74°",
+                    "condition_summary": "Thunderstorms",
+                    "precipitation_chance": "93%",
+                    "wind_speed": "N/A"
+                }
+            ]
+        }
+    ],
+    "hourly_forecasts_grouped": [
+        {
+            "date_day_name": "Tuesday",
+            "hourly_entries": [
+                {
+                    "time_of_day": "Now",
+                    "temp": "81°",
+                    "condition": "Cloudy",
+                    "feels_like": "88°",
+                    "wind": "NNE 4 mph"
+                },
+                {
+                    "time_of_day": "5 pm",
+                    "temp": "80°",
+                    "condition": "Cloudy",
+                    "feels_like": "N/A",
+                    "wind": "N 2 mph"
+                },
+                {
+                    "time_of_day": "6 pm",
+                    "temp": "79°",
+                    "condition": "Cloudy",
+                    "feels_like": "N/A",
+                    "wind": "N 4 mph"
+                },
+                {
+                    "time_of_day": "7 pm",
+                    "temp": "78°",
+                    "condition": "Cloudy",
+                    "feels_like": "N/A",
+                    "wind": "N 3 mph"
+                }
+            ]
+        }
+    ],
+    "monthly_forecasts": []
+}
