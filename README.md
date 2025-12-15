@@ -36,15 +36,18 @@ Pastikan sistem Anda telah terinstal:
 
 ###  Eksekusi
 
-1.  **Konfigurasi (Opsional):** Jika Anda ingin mengubah kota target atau URL sumber data, buka file `config.py` atau `main.py` dan ubah variabel `TARGET_CITIES` atau `TARGET_URLS` yang ada.
+1.  **Konfigurasi Gemini API KEY:**
+  ```bash
+    export GEMINI_API_KEY='GEMINI_KEY'
+  ``` 
 2.  **Jalankan Scraper:** Eksekusi file utama aplikasi.
     ```bash
-    python main.py
+    python scheduler.py
     ```
 
 
 ## Kontak
 
 * **Pengembang:** Cahya
-* **GitHub:** [@cahyacaa](https://github.com/cahyacaa)
+* **GitHub:** [@cahya-marine](https://github.com/cahya-marine)
 * **Link Proyek:** [https://github.com/cahya-marine/weather-scraping](https://github.com/cahya-marine/weather-scraping)

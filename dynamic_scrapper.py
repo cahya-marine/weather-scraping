@@ -272,9 +272,6 @@ class UniversalScraperV27:
 
 
 if __name__ == "__main__":
-    print("\n--- 🧠 Scraper Zero-Shot Universal (V27) - MONTHLY FOCUS ---")
-    print("Mendukung ekstraksi Bulanan, Per Jam, dan Harian.")
-    
     target_url = input("Masukkan URL target (Monthly/Hourly/Daily): ").strip()
 
     if not target_url:

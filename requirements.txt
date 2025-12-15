@@ -2,3 +2,4 @@ pydantic
 google-genai
 playwright
 pandas
+schedule
